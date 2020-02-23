@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "972456213505",
+    "firebase_url": "https://whatsapp-e6765.firebaseio.com",
+    "project_id": "whatsapp-e6765",
+    "storage_bucket": "whatsapp-e6765.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972456213505:android:a835925a6439bfcf",
+        "android_client_info": {
+          "package_name": "com.example.krishu.bangechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972456213505-mhnd7g6hj5iufo8fe2had5ob0c0k5b6a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishu.bangechat",
+            "certificate_hash": "7a1e4b3ff8032e3f40ccfd8169ca6257742e24c7"
+          }
+        },
+        {
+          "client_id": "972456213505-4u3fvuks7eral0u2ka9enmjcgp820ee1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoFDlCSp45zkFdaIQDVJyF7wMMUbYpVt4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972456213505-4u3fvuks7eral0u2ka9enmjcgp820ee1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/welcome">
+
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="366dp"
+        android:layout_height="85dp"
+        android:src="@drawable/applogo"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="100dp"
+         />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/applogo"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="-6dp"
+        android:text="Online Clothing Center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="390dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="355dp"
+        android:layout_below="@+id/display"
+        android:background="@drawable/buttons"
+        android:text="Sign in"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="390dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="280dp"
+        android:layout_below="@+id/display"
+        android:background="@drawable/input_design"
+        android:text="Log in"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>

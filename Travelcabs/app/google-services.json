@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "619080073961",
+    "firebase_url": "https://travelscab-ac2ca.firebaseio.com",
+    "project_id": "travelscab-ac2ca",
+    "storage_bucket": "travelscab-ac2ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619080073961:android:7c87b6a092c9bb10",
+        "android_client_info": {
+          "package_name": "com.valischat.example.travelcabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619080073961-e2ro5a5jkditdm0jd1qoovdnsmco7sfr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.valischat.example.travelcabs",
+            "certificate_hash": "7a1e4b3ff8032e3f40ccfd8169ca6257742e24c7"
+          }
+        },
+        {
+          "client_id": "619080073961-s7vl3725rhq6cffuncqa3ppal3aqu7nc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABR8u-20r2YL13zz2_eo4POQOD2DjhBog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619080073961-s7vl3725rhq6cffuncqa3ppal3aqu7nc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

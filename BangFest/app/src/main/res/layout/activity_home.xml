@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/colorWhite">
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/input_design"/>
+
+    <LinearLayout
+        android:id="@+id/contain1"
+        android:layout_width="408dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="125dp"
+        >
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="140dp"
+            android:src="@drawable/shirt1"
+            />
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="140dp"
+            android:src="@drawable/shirt2"
+            />
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="140dp"
+            android:src="@drawable/shirt3"
+            />
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contain2"
+        android:layout_width="410dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="2dp"
+        android:layout_below="@+id/contain1"
+        android:layout_marginTop="0dp"
+        >
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="140dp"
+            android:src="@drawable/bshirt"
+            />
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="140dp"
+            android:src="@drawable/bshirt2"
+            />
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="140dp"
+            android:src="@drawable/images"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_below="@+id/contain2"
+        >
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="140dp"
+            android:src="@drawable/image"
+            />
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="140dp"
+            android:src="@drawable/downloaded"
+            />
+
+        <ImageView
+            android:layout_width="136dp"
+            android:layout_height="140dp"
+            android:src="@drawable/shirt4"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

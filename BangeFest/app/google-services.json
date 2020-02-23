@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "79532363837",
+    "firebase_url": "https://bangefest.firebaseio.com",
+    "project_id": "bangefest",
+    "storage_bucket": "bangefest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79532363837:android:a28731e7c7bf6838",
+        "android_client_info": {
+          "package_name": "com.example.krishu.bangefest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79532363837-qrf5aih9vt58259vdepg6foonfvgk81d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishu.bangefest",
+            "certificate_hash": "7a1e4b3ff8032e3f40ccfd8169ca6257742e24c7"
+          }
+        },
+        {
+          "client_id": "79532363837-jrtonbtk7oi1sfiu4lo4h9ja03b6iuin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3kLWoeuOI2LOyKRcFEP9Haf7YUx27XKY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79532363837-jrtonbtk7oi1sfiu4lo4h9ja03b6iuin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

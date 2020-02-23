@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Bubble Eating Fish</string>
+    <string name="privacy_message">1.  There are 3 types of Bubbles-
+   * Large
+   * Medium
+   * Small.    \n
+2.  If the fish eates the Small Bubbles
+     then your score will increase by 10. \n
+3. If the fish eates the medium Bubble
+    then your score will increase by 20. \n
+4.  The Large Bubble is poisnous. If you
+     eat it then your Health Power will
+     decrease by 1. \n
+5.  You have to carefully notice the
+      bubbles before eating it. \n
+6.  When your health power will be 0,
+     then the game will be over with the
+     score informed. \n
+7.  If you like to play again click on the
+       Play Again  Button and the game
+        will be  restarted. \n \n \n
+        Prepared by Abhinav Kumar.\n
+        Location: Narayan Recidency,\n
+        Hazaribag, 825301. </string>
+</resources>

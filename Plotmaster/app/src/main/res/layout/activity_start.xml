@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:background="@color/colorViolet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="0dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="70dp"
+            android:text="BAN"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="135dp"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="-20dp"
+            android:text="GEF"
+            android:textColor="@color/colorWhite"
+            android:textSize="78dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textSize="78dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="138dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:text="EST"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="-370dp"
+            app:srcCompat="@drawable/bange" />
+
+        <Button
+            android:id="@+id/btnextra"
+            android:layout_width="242dp"
+            android:background="@drawable/buttons"
+            android:layout_height="60dp"
+            android:layout_marginTop="300dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp"
+            android:text="START"
+            android:layout_marginLeft="85dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
